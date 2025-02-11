@@ -121,7 +121,7 @@ header img {
 .gt {
     width: 100%;
     position: relative;
-    margin-top: 180px;
+    
 }
 .first {
     width: 100%; max-width: 100%; 
@@ -156,6 +156,8 @@ header img {
 }
 .s1top {
     width: 100%; max-width: 100%; 
+    margin-top: 10px;
+     
  
 
 }
@@ -245,7 +247,7 @@ header img {
 }
 footer {
     width: 100%;
-    margin-top: 400px;
+    margin-top: 250px;
     height: 500px;
     
     position: relative;
@@ -495,7 +497,7 @@ gap: 5px;
    }
    header button {
     margin: 30px;
-    width: 180px;
+    width: 150px;
     height: 35px;
    }
    .wlc h1 {
@@ -511,6 +513,7 @@ gap: 5px;
     padding: 10px;
    }
 }
+
 @media (max-width: 379px){
     .footerLeft > img {
         display: none;
