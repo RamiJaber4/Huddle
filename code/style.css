@@ -1,0 +1,532 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --darkCyan: hsl(192, 100%, 9%);
+    --paleBlue: hsl(207, 100%, 98%);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+     
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: sans-serif;
+    
+ 
+     
+}
+h1, h2, h3 {
+    
+    font-family: "Cairo", serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header button {
+    font-size: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-right: 50px;
+    color: var(--LightPink);
+    background-color: white;
+    border: 1px solid var(--LightPink);
+
+}
+header img {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.wlc {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.wlc h1 {
+    font-size: 60px;
+}
+.wlc p {
+    font-size: 30px;
+    
+    width: 60%;
+}
+.wlc button {
+    width: 400px;
+     padding: 30px 0;
+    background-color: var(--pink);
+    border-radius: 49px;
+    color: white;
+    border: 1px solid var(--pink);
+    margin-top: 40px;
+    font-size: 20px;
+}
+.screenimg {
+    max-width: 100%; /* ✅ يمنع خروجها عن الشاشة */
+    width: 800px;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    width: 100%;
+
+}
+.status .st1 {
+    position: relative;
+}
+.status .st2 {
+    position: relative;
+}
+.status .st1 h2{
+
+    font-size: 80px;
+}
+.status .st2 h2{
+
+    font-size: 80px;
+}
+.status .st1 img{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.status .st2 img{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.status p {
+    font-size: 20px;
+    color: rgb(158, 157, 157);
+}
+.gt {
+    width: 100%;
+    position: relative;
+    margin-top: 180px;
+}
+.first {
+    width: 100%; max-width: 100%; 
+}
+
+.gtin {
+    background-color: var(--paleBlue);
+    display: flex;
+     
+
+}
+
+.second {
+    width: 530px;;
+    margin-left: 50px;
+}
+.ingt  {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 14%;
+
+}
+.ingt h3 {
+    font-size: 50px
+}
+.ingt p {
+    font-size: 22px;
+
+    
+}
+.s1top {
+    width: 100%; max-width: 100%; 
+ 
+
+}
+.s1bottom {
+    width: 100%; max-width: 100%; 
+}
+.fc {
+    display: flex;
+    margin-top: 120px;
+}
+.infclogo {
+    width: 50%;
+}
+.infc {
+     
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14%;
+    text-align: start;
+}
+
+.infc h3{
+    font-size: 50px;
+}
+.infc p {
+    font-size: 22px;
+}
+.yu {
+    width: 100%;
+    position: relative;
+    margin-top: 250px;
+}
+.s2top {
+    width: 100%; max-width: 100%; 
+   
+}
+.s2bottom {
+    width: 100%; max-width: 100%; 
+}
+.yuin {
+    width: 100%;
+    background-color: var(--paleBlue); 
+    display: flex;
+}
+
+   
+
+.third {
+    width: 100%; max-width: 100%; 
+}
+.inyu {
+
+    width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 14%;
+
+}
+.inyu h3 {
+    font-size: 50px;
+
+}
+.inyu p {
+    font-size: 23px;
+}
+.beforeFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.beforeFooter h1 {
+    font-size: 50px;
+}
+.beforeFooter button {
+    width: 400px;
+    padding: 20px 0;
+    background-color: var(--pink);
+    border-radius: 49px;
+    color: white;
+    border: 1px solid var(--pink);
+    margin-top: 40px;
+    font-size: 20px;
+}
+footer {
+    width: 100%;
+    margin-top: 400px;
+    height: 500px;
+    
+    position: relative;
+
+}
+.infooter {
+    background-color: var(--darkCyan);
+width: 100%;
+display: flex;
+ 
+
+height: fit-content;
+justify-content: space-between;
+}
+footer > img {
+    
+   max-width: 100%;;
+    
+}
+.footerLeft {
+text-wrap: wrap;
+width: 320px;
+color: white;
+margin-left: 120px;;
+margin-top: 90px;
+position: relative;
+font-size: 22px;
+}
+.footerLeft > img {
+    width : 350px;
+}
+.footerLeft::before {
+    content: "Huddle";
+    position: absolute;
+    font-size: 50px;
+    left: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ 
+.comu {
+    margin-top: 10px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-around;
+  gap: 20px;
+}
+.phdiv {
+    display: flex;
+    gap: 15px;
+    
+}
+.emdiv {
+    gap: 15px;
+    display: flex;
+}
+.footerRight {
+    color: white;
+    width: 320px;
+margin-right: 250px;;
+margin-top: 90px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+ 
+}
+.footerRight input{
+
+    
+    height: 24px;
+    width: 280px;
+    margin-right: 30px;
+    
+}
+.footerRight h2 {
+    font-size: 20px;
+}
+
+.in {
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    width: 450px;
+}
+.in button {
+    box-sizing: border-box;
+   height: 28px;
+   padding: 10px 20px;
+   display: flex;
+   width: 120px;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   background-color: var(--pink);
+   border-radius: 5px;
+   border: 1px solid var(--pink);
+   
+}
+
+@media (max-width: 1040px){
+
+    *{
+        margin: 0;
+    }
+    .infooter {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    }
+    .footerRight {
+        margin: 20px 0
+    }
+    
+    .footerLeft {
+        margin: 20px 0
+    }
+   
+    .status {
+        flex-direction: column;
+        gap: 100px;
+    }
+    .gtin {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+    }
+    .ingt {
+        justify-content: center;
+        align-items: center;
+    }
+    .screenimg {
+        width: 80%;
+    }
+    .ingtlogo {
+      width: 80%;
+      
+    }
+    .first{
+        width: 100%;
+        
+    }
+    .second {
+        width: 100%;
+
+    }
+    .fc {
+        flex-direction: column;
+        gap: 100px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .infc {
+       
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+   
+    
+    .infclogo   {
+        width: 80%;
+        margin-right: 90px;
+    }
+    .third {
+        width: 100%;
+    }
+    .yuin {
+        flex-direction: column-reverse;
+        gap: 100px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .beforeFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .beforeFooter button {
+        width: 100%;
+    }
+    .in {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inyulogo {
+        
+        width: 85%;
+        
+    }
+    .beforeFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+.beforeFooter h1 {
+    font-size: 25px;
+   }
+   .ingt h3 {
+    font-size: 30px;
+
+   }
+   .ingt p {
+    font-size: 16px;
+   }
+   .inyu h3 {
+    font-size: 30px;
+
+   }
+   .inyu p {
+    font-size: 16px;
+   }
+   .infc p {
+    font-size: 16px;
+   }
+   .infc h3 {
+    font-size: 30px;
+
+   }
+   header img {
+    margin: 0;
+    width: 120px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 60px;
+   }
+   .in {
+    width: 50%;
+   }
+   header img {
+    margin: 30px;
+    width: 100px;
+    height: 35px;
+   }
+   header button {
+    margin: 30px;
+    width: 180px;
+    height: 35px;
+   }
+   .wlc h1 {
+    font-size: 28px;
+   }
+   .wlc p {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+   }
+   .wlc button {
+    width: 100%;
+    padding: 10px;
+   }
+}
+@media (max-width: 379px){
+    .footerLeft > img {
+        display: none;
+    }
+    .footerLeft::before {
+        display: none;
+    }
+    .footerLeft {
+        width: 50%;
+    }
+    .footerRight {
+        width: 50%;
+    }
+    .footerRight input{
+
+        width: 150px;
+    }
+    .comu .emdiv p{
+        display: none;
+    }
+}
