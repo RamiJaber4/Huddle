@@ -60,10 +60,13 @@ header img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
 }
 .wlc h1 {
     font-size: 60px;
+    text-align: center;
+
+
 }
 .wlc p {
     font-size: 30px;
