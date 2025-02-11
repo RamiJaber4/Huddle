@@ -38,9 +38,15 @@ header button {
     border-radius: 25px;
     margin-top: 40px;
     margin-right: 50px;
-    color: var(--LightPink);
+    color: var(--pink);
     background-color: white;
+    border: 1px solid var(--pink);
+
+}
+header button:hover {
     border: 1px solid var(--LightPink);
+    color: var(--LightPink);
+    cursor: pointer;
 
 }
 header img {
@@ -74,8 +80,14 @@ header img {
     margin-top: 40px;
     font-size: 20px;
 }
+.wlc button:hover {
+    border: 1px solid var(--LightPink);
+    cursor: pointer;
+    background-color: var(--LightPink);
+
+}
 .screenimg {
-    max-width: 100%; /* ✅ يمنع خروجها عن الشاشة */
+    max-width: 100%; 
     width: 800px;
 }
 
@@ -245,6 +257,12 @@ header img {
     margin-top: 40px;
     font-size: 20px;
 }
+.beforeFooter button:hover {
+    border: 1px solid var(--LightPink);
+    background-color: var(--LightPink);
+    cursor: pointer;
+
+}
 footer {
     width: 100%;
     margin-top: 250px;
@@ -348,7 +366,13 @@ gap: 5px;
    border: 1px solid var(--pink);
    
 }
-
+ 
+ 
+.in button:hover {
+    border: 1px solid var(--LightPink);
+    background-color: var(--LightPink);
+    cursor: pointer;
+}
 @media (max-width: 1040px){
 
     *{
